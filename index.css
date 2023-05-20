@@ -1,0 +1,99 @@
+/* Reset some default styles */
+
+  /* Sticky navigation bar */
+  body{
+    gap:30px;
+    background-color:rgb(219, 227, 231);
+  }
+  section{
+    margin-left: 30px;
+    margin-right:30px;
+    background-color: white;
+  }
+  nav.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+  }
+  
+  nav.sticky ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav.sticky ul li {
+    float: left;
+  }
+  
+  nav.sticky ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav.sticky ul li a:hover {
+    background-color: #111;
+  }
+  
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  
+  .nested-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .nested-table th,
+  .nested-table td {
+    padding: 4px 8px;
+  }
+  
+  h2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form{
+    display: block;
+  max-width: 100%;
+  padding:20px;
+  }  
+ input{
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+ 
+  .submitButton{
+    background-color: black;
+    width:100%;
+    color:white;
+   margin-top: 30px;
+  }
+ input:hover{
+    border-color: blue;
+ }
+  
+  h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+  }
+  
+  /* Other styles as desired */
+  
